@@ -279,7 +279,6 @@ static bool _uartDetachPins(uint8_t uart_num, int8_t rxPin, int8_t txPin, int8_t
       log_e("UART%u failed to detach RTS pin %d", uart_num, rtsPin);
     }
   }
-  
   return retCode;
 }
 
