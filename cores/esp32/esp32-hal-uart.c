@@ -189,22 +189,22 @@ static bool lpuartCheckPins(int8_t rxPin, int8_t txPin, int8_t ctsPin, int8_t rt
   uint16_t lp_uart_fixed_pin = uart_periph_signal[uart_nr].pins[SOC_UART_RX_PIN_IDX].default_gpio;
   bool allPinsAreGood = true;
   if (uart_nr >= SOC_UART_HP_NUM) {  // it is a LP UART NUM
-    if (rxPin > 0 && rxPin != lp_uart_fixed_pin) {
+    if (rxPin >= 0 && rxPin != lp_uart_fixed_pin) {
       log_e("UART%u LP UART requires RX pin to be set to %u", uart_nr, lp_uart_fixed_pin);
       allPinsAreGood = false;
     }
     lp_uart_fixed_pin = uart_periph_signal[uart_nr].pins[SOC_UART_TX_PIN_IDX].default_gpio;
-    if (txPin > 0 && txPin != lp_uart_fixed_pin) {
+    if (txPin >= 0 && txPin != lp_uart_fixed_pin) {
       log_e("UART%u LP UART requires TX pin to be set to %u", uart_nr, lp_uart_fixed_pin);
       allPinsAreGood = false;
     }
     lp_uart_fixed_pin = uart_periph_signal[uart_nr].pins[SOC_UART_CTS_PIN_IDX].default_gpio;
-    if (ctsPin > 0 && ctsPin != lp_uart_fixed_pin) {
+    if (ctsPin >= 0 && ctsPin != lp_uart_fixed_pin) {
       log_e("UART%u LP UART requires CTS pin to be set to %u", uart_nr, lp_uart_fixed_pin);
       allPinsAreGood = false;
     }
     lp_uart_fixed_pin = uart_periph_signal[uart_nr].pins[SOC_UART_RTS_PIN_IDX].default_gpio;
-    if (rtsPin > 0 && rtsPin != lp_uart_fixed_pin) {
+    if (rtsPin >= 0 && rtsPin != lp_uart_fixed_pin) {
       log_e("UART%u LP UART requires RTS pin to be set to %u", uart_nr, lp_uart_fixed_pin);
       allPinsAreGood = false;
     }
