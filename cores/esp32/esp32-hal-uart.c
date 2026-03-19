@@ -816,9 +816,9 @@ uart_t *uartBegin(
   log_v("UART%u baud(%" PRIu32 ") Mode(0x%" PRIx32 ") rxPin(%d) txPin(%d)", uart_nr, baudrate, config, rxPin, txPin);
 
   // check uart_nr, rx and tx pins, if necessary log error message and return a valid value 
-  if (!_uartValidatePins(uart_num, rxPin, txPin, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE)) {
+  if (!_uartValidatePins(uart_nr, rxPin, txPin, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE)) {
     if (uart_nr < SOC_UART_NUM && uart_is_driver_installed(uart_nr)) {
-      return uart;  // keep the same installed driver
+      return &_uart_bus_array[uart_nr];  // keep the same installed driver
     } else {
       return NULL;  // no new driver was installed
     }
