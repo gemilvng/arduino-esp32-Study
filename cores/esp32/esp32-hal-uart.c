@@ -409,11 +409,11 @@ static bool _uartDetachBus_RTS(void *busptr) {
 // For LP UART attaching, it tries both, IOMUX and GPIO Matrix (ESP32-P4 only), whenever available.
 // It is called only after UART NUMBER is validated
 static bool _uartTrySetIomuxPin(uart_port_t uart_num, int io_num, uint32_t idx) {
+  // Store a pointer to the default pin, to optimize access to its fields.
+  const uart_periph_sig_t *upin = &uart_periph_signal[uart_num].pins[idx];
+
   if (uart_num < SOC_UART_HP_NUM) {  // HP UART peripheral
 #if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(5, 5, 0)
-    // Store a pointer to the default pin, to optimize access to its fields.
-    const uart_periph_sig_t *upin = &uart_periph_signal[uart_num].pins[idx];
-
     // In theory, if default_gpio is -1, iomux_func should also be -1, but let's be safe and test both.
     if (upin->default_gpio == -1 || upin->default_gpio != io_num) {
       return false;
