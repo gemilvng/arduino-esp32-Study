@@ -930,7 +930,7 @@
                     },
 {"name": "libraries/WiFi/examples/WiFiClientBasic",
                     "sizes": [{
-                            "flash_bytes": 935195,
+                            "flash_bytes": 935187,
                             "flash_percentage": 71,
                             "ram_bytes": 42220,
                             "ram_percentage": 12
@@ -1039,7 +1039,7 @@
                     },
 {"name": "libraries/WiFi/examples/SimpleWiFiServer",
                     "sizes": [{
-                            "flash_bytes": 896943,
+                            "flash_bytes": 896927,
                             "flash_percentage": 68,
                             "ram_bytes": 45880,
                             "ram_percentage": 14

@@ -608,7 +608,7 @@
                 "sketches": [
 {"name": "libraries/Matter/examples/MatterPressureSensor",
                     "sizes": [{
-                            "flash_bytes": 2149539,
+                            "flash_bytes": 2149381,
                             "flash_percentage": 68,
                             "ram_bytes": 105840,
                             "ram_percentage": 32
@@ -616,7 +616,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterRainSensor",
                     "sizes": [{
-                            "flash_bytes": 2169083,
+                            "flash_bytes": 2168925,
                             "flash_percentage": 68,
                             "ram_bytes": 106612,
                             "ram_percentage": 32
@@ -624,7 +624,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterSimpleBlinds",
                     "sizes": [{
-                            "flash_bytes": 2162303,
+                            "flash_bytes": 2162145,
                             "flash_percentage": 68,
                             "ram_bytes": 105980,
                             "ram_percentage": 32
@@ -632,7 +632,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterSmartButton",
                     "sizes": [{
-                            "flash_bytes": 2155039,
+                            "flash_bytes": 2154881,
                             "flash_percentage": 68,
                             "ram_bytes": 105856,
                             "ram_percentage": 32
@@ -640,7 +640,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterStatus",
                     "sizes": [{
-                            "flash_bytes": 2179077,
+                            "flash_bytes": 2178919,
                             "flash_percentage": 69,
                             "ram_bytes": 106628,
                             "ram_percentage": 32
@@ -648,7 +648,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterTemperatureControlledCabinet",
                     "sizes": [{
-                            "flash_bytes": 2151905,
+                            "flash_bytes": 2151747,
                             "flash_percentage": 68,
                             "ram_bytes": 105880,
                             "ram_percentage": 32
@@ -656,7 +656,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterTemperatureControlledCabinetLevels",
                     "sizes": [{
-                            "flash_bytes": 2150779,
+                            "flash_bytes": 2150621,
                             "flash_percentage": 68,
                             "ram_bytes": 105864,
                             "ram_percentage": 32
@@ -664,7 +664,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterTemperatureLight",
                     "sizes": [{
-                            "flash_bytes": 2219545,
+                            "flash_bytes": 2219387,
                             "flash_percentage": 70,
                             "ram_bytes": 106684,
                             "ram_percentage": 32
@@ -672,7 +672,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterTemperatureSensor",
                     "sizes": [{
-                            "flash_bytes": 2149585,
+                            "flash_bytes": 2149427,
                             "flash_percentage": 68,
                             "ram_bytes": 105840,
                             "ram_percentage": 32
@@ -680,7 +680,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterThermostat",
                     "sizes": [{
-                            "flash_bytes": 2176347,
+                            "flash_bytes": 2176189,
                             "flash_percentage": 69,
                             "ram_bytes": 105976,
                             "ram_percentage": 32
@@ -688,7 +688,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterWaterFreezeDetector",
                     "sizes": [{
-                            "flash_bytes": 2169081,
+                            "flash_bytes": 2168923,
                             "flash_percentage": 68,
                             "ram_bytes": 106612,
                             "ram_percentage": 32
@@ -696,7 +696,7 @@
                     },
 {"name": "libraries/Matter/examples/MatterWaterLeakDetector",
                     "sizes": [{
-                            "flash_bytes": 2169073,
+                            "flash_bytes": 2168915,
                             "flash_percentage": 68,
                             "ram_bytes": 106612,
                             "ram_percentage": 32
@@ -709,10 +709,10 @@
                 "sketches": [
 {"name": "libraries/SD_MMC/examples/SD2USBMSC",
                     "sizes": [{
-                            "flash_bytes": 473920,
+                            "flash_bytes": 477276,
                             "flash_percentage": 36,
-                            "ram_bytes": 57800,
-                            "ram_percentage": 17
+                            "ram_bytes": 70736,
+                            "ram_percentage": 21
                             }]
                     },
 {"name": "libraries/SD_MMC/examples/SDMMC_Test",
@@ -789,42 +789,42 @@
                     },
 {"name": "libraries/USB/examples/CompositeDevice",
                     "sizes": [{
-                            "flash_bytes": 427616,
+                            "flash_bytes": 430972,
                             "flash_percentage": 32,
-                            "ram_bytes": 57576,
-                            "ram_percentage": 17
+                            "ram_bytes": 70512,
+                            "ram_percentage": 21
                             }]
                     },
 {"name": "libraries/USB/examples/ConsumerControl",
                     "sizes": [{
-                            "flash_bytes": 370210,
+                            "flash_bytes": 373574,
                             "flash_percentage": 28,
-                            "ram_bytes": 57140,
-                            "ram_percentage": 17
+                            "ram_bytes": 70076,
+                            "ram_percentage": 21
                             }]
                     },
 {"name": "libraries/USB/examples/CustomHIDDevice",
                     "sizes": [{
-                            "flash_bytes": 387722,
+                            "flash_bytes": 391086,
                             "flash_percentage": 29,
-                            "ram_bytes": 57160,
-                            "ram_percentage": 17
+                            "ram_bytes": 70096,
+                            "ram_percentage": 21
                             }]
                     },
 {"name": "libraries/USB/examples/FirmwareMSC",
                     "sizes": [{
-                            "flash_bytes": 405920,
-                            "flash_percentage": 30,
-                            "ram_bytes": 57136,
-                            "ram_percentage": 17
+                            "flash_bytes": 409276,
+                            "flash_percentage": 31,
+                            "ram_bytes": 70072,
+                            "ram_percentage": 21
                             }]
                     },
 {"name": "libraries/USB/examples/Gamepad",
                     "sizes": [{
-                            "flash_bytes": 388152,
+                            "flash_bytes": 391516,
                             "flash_percentage": 29,
-                            "ram_bytes": 57144,
-                            "ram_percentage": 17
+                            "ram_bytes": 70080,
+                            "ram_percentage": 21
                             }]
                     }
 ]
@@ -914,58 +914,58 @@
                     },
 {"name": "libraries/USB/examples/CompositeDevice",
                     "sizes": [{
-                            "flash_bytes": 357224,
+                            "flash_bytes": 359932,
                             "flash_percentage": 27,
-                            "ram_bytes": 40456,
-                            "ram_percentage": 12
+                            "ram_bytes": 46752,
+                            "ram_percentage": 14
                             }]
                     },
 {"name": "libraries/USB/examples/ConsumerControl",
                     "sizes": [{
-                            "flash_bytes": 310424,
+                            "flash_bytes": 313248,
                             "flash_percentage": 23,
-                            "ram_bytes": 40008,
-                            "ram_percentage": 12
+                            "ram_bytes": 46312,
+                            "ram_percentage": 14
                             }]
                     },
 {"name": "libraries/USB/examples/CustomHIDDevice",
                     "sizes": [{
-                            "flash_bytes": 324100,
+                            "flash_bytes": 326792,
                             "flash_percentage": 24,
-                            "ram_bytes": 40024,
-                            "ram_percentage": 12
+                            "ram_bytes": 46320,
+                            "ram_percentage": 14
                             }]
                     },
 {"name": "libraries/USB/examples/FirmwareMSC",
                     "sizes": [{
-                            "flash_bytes": 336508,
+                            "flash_bytes": 339208,
                             "flash_percentage": 25,
-                            "ram_bytes": 39672,
-                            "ram_percentage": 12
+                            "ram_bytes": 45968,
+                            "ram_percentage": 14
                             }]
                     },
 {"name": "libraries/USB/examples/Gamepad",
                     "sizes": [{
-                            "flash_bytes": 324476,
+                            "flash_bytes": 327176,
                             "flash_percentage": 24,
-                            "ram_bytes": 40032,
-                            "ram_percentage": 12
+                            "ram_bytes": 46328,
+                            "ram_percentage": 14
                             }]
                     },
 {"name": "libraries/USB/examples/HIDVendor",
                     "sizes": [{
-                            "flash_bytes": 326532,
-                            "flash_percentage": 24,
-                            "ram_bytes": 40104,
-                            "ram_percentage": 12
+                            "flash_bytes": 329232,
+                            "flash_percentage": 25,
+                            "ram_bytes": 46400,
+                            "ram_percentage": 14
                             }]
                     },
 {"name": "libraries/USB/examples/Keyboard/KeyboardLogout",
                     "sizes": [{
-                            "flash_bytes": 311640,
+                            "flash_bytes": 314524,
                             "flash_percentage": 23,
-                            "ram_bytes": 40040,
-                            "ram_percentage": 12
+                            "ram_bytes": 46344,
+                            "ram_percentage": 14
                             }]
                     }
 ]
@@ -1023,10 +1023,10 @@
                     },
 {"name": "libraries/SD_MMC/examples/SD2USBMSC",
                     "sizes": [{
-                            "flash_bytes": 456530,
-                            "flash_percentage": 34,
-                            "ram_bytes": 46068,
-                            "ram_percentage": 14
+                            "flash_bytes": 459250,
+                            "flash_percentage": 35,
+                            "ram_bytes": 52364,
+                            "ram_percentage": 15
                             }]
                     },
 {"name": "libraries/SD_MMC/examples/SDMMC_Test",
@@ -1103,26 +1103,26 @@
                     },
 {"name": "libraries/USB/examples/CompositeDevice",
                     "sizes": [{
-                            "flash_bytes": 418486,
-                            "flash_percentage": 31,
-                            "ram_bytes": 46044,
-                            "ram_percentage": 14
+                            "flash_bytes": 421262,
+                            "flash_percentage": 32,
+                            "ram_bytes": 52348,
+                            "ram_percentage": 15
                             }]
                     },
 {"name": "libraries/USB/examples/ConsumerControl",
                     "sizes": [{
-                            "flash_bytes": 371570,
+                            "flash_bytes": 374278,
                             "flash_percentage": 28,
-                            "ram_bytes": 45604,
-                            "ram_percentage": 13
+                            "ram_bytes": 51900,
+                            "ram_percentage": 15
                             }]
                     },
 {"name": "libraries/USB/examples/CustomHIDDevice",
                     "sizes": [{
-                            "flash_bytes": 384854,
+                            "flash_bytes": 387546,
                             "flash_percentage": 29,
-                            "ram_bytes": 45604,
-                            "ram_percentage": 13
+                            "ram_bytes": 51908,
+                            "ram_percentage": 15
                             }]
                     }
 ]

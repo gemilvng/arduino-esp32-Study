@@ -709,10 +709,10 @@
                 "sketches": [
 {"name": "libraries/USB/examples/USBVendor",
                     "sizes": [{
-                            "flash_bytes": 391360,
-                            "flash_percentage": 29,
-                            "ram_bytes": 57144,
-                            "ram_percentage": 17
+                            "flash_bytes": 394724,
+                            "flash_percentage": 30,
+                            "ram_bytes": 70080,
+                            "ram_percentage": 21
                             }]
                     },
 {"name": "libraries/Update/examples/AWS_S3_OTA_Update",
