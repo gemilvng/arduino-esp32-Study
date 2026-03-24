@@ -1,5 +1,5 @@
 {
-  "commit_sha": "9b1330a9f5a2e3a90631df6ef1aca43c89cb4515",
+  "commit_sha": "00e8ab428d4305436de1befad3afc1a3e83e4023",
   "tests_failed": true,
   "test_data": {
     "hardware": {
@@ -931,7 +931,7 @@
       }
     }
   },
-  "generated_at": "2026-03-23T00:39:22.835556",
+  "generated_at": "2026-03-24T01:13:48.440275",
   "performance_data": {
     "esp32_coremark": {
       "status": "error"
